@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 68.75rem;
+  overflow: auto;
+  padding: 0 1.25rem ;
+}
+
 /* Main Styling here */
 body, html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,7 +33,7 @@ p {
   margin: .625rem 0;
 }
 
-/* Navbar */
+/* Navbar - Basic with some styling*/
 #navbar {
   background: #333;
   color: #fff;
@@ -35,4 +43,30 @@ p {
 
 #navbar a {
   color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 1.25rem;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;  
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
 }
