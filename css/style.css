@@ -1,4 +1,38 @@
+/* Reset defaults back to 0 */
+/* Do this before all sites, border-box especially!!! */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling here */
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3 {
+  padding-bottom: 1.25rem;
+}
+
+p {
+  margin: .625rem 0;
+}
+
+/* Navbar */
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+
+}
+
+#navbar a {
+  color: #fff;
 }
