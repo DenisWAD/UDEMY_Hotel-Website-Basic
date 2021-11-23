@@ -18,6 +18,14 @@
   color: #f7c08a;
 }
 
+.text-secondary {
+  color: #fff;
+}
+
+.lead {
+  font-size: 1.225rem;
+}
+
 /* Main Styling here */
 body, html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -35,6 +43,45 @@ h1, h2, h3 {
 
 p {
   margin: .625rem 0;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  color: #fff;
+  background: #333;
+  padding: .813rem 1.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333
+}
+
+.bg-dark {
+  color: #fff;
+  background: #333;
+}
+
+.bg-light {
+  color: #333;
+  background: #fff;
+}
+
+.bg-primary {
+  color: #333;
+  background: #f7c08a;
+}
+
+.clr {
+  clear: both;
 }
 
 /* Navbar - Basic with some styling*/
@@ -89,7 +136,62 @@ p {
 
 #showcase .showcase-content h1 {
   font-size: 3.75rem;
-  line-height: 1.2rem;
+  line-height: 1.2em;
 
 }
 
+
+#showcase .showcase-content p {
+  padding-bottom: 1rem;
+  line-height: 1.7em;
+
+}
+
+  /* Home-Info */
+  #home-info {
+    height: 25rem;
+  }
+
+  #home-info .info-img {
+    float: left;
+    background: url('../img/image_resources/photo-1.jpg');
+    width: 50%;
+    min-height: 100%;
+  }
+
+  #home-info .info-content {
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 3rem .8rem;
+    overflow: hidden;
+  }
+
+  #home-info .info-content p {
+    padding-bottom: 3rem;
+  }
+
+  /* Home Features boxes */
+  /* #home-features {
+    height: 25rem;
+  } */
+
+  .box {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 3.125rem;
+  }
+
+  #home-features i {
+    margin-bottom: .625rem;
+  }
+
+  /* Footer */
+  #main-footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+  }
