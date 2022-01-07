@@ -84,6 +84,11 @@ p {
   clear: both;
 }
 
+/* Padding */
+.py-1 { padding: .625rem 0; }
+.py-2 { padding: 1.25rem 0; }
+.py-3 { padding: 1.875rem 0; }
+
 /* Navbar - Basic with some styling*/
 #navbar {
   background: #333;
@@ -132,6 +137,10 @@ p {
   text-align: center;
   color: #fff;
   padding-top: 10.625rem;
+}
+
+#showcase .showcase-content a {
+  margin-top: 1rem;
 }
 
 #showcase .showcase-content h1 {
@@ -187,6 +196,33 @@ p {
   #home-features i {
     margin-bottom: .625rem;
   }
+
+
+  /* About Info*/
+  #about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+  }
+  
+  #about-info .info-right {
+     float: right;
+     width: 50%;
+     min-height: 100%;
+  }
+
+  #about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }  
+
+ 
+
+
+
+
+
 
   /* Footer */
   #main-footer {
